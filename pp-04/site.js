@@ -7,7 +7,7 @@
 x = 5;
 
 function double(num) {
-  var = num * 2;
+  var x = num * 2;
   return x;
 }
 
@@ -23,7 +23,13 @@ console.log('The value of x is', x, '-- it should be 5.');
   Be sure to comment out the original `double()` function so you
   can accurately test your work.
 */
-
+( function()) {
+  var x = 5;
+  function double (num) {
+    var x = num * 2;
+    return x;
+  }
+}
 
 /*
   Step 3. Rewrite your corrected `double()` function from Step 2.
