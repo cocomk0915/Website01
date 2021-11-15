@@ -7,7 +7,7 @@
 x = 5;
 
 function double(num) {
-  x = num * 2;
+  var = num * 2;
   return x;
 }
 
